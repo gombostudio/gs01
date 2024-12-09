@@ -1,0 +1,26 @@
+.section{
+    margin-top: 100px;  
+}
+
+.section__navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 15%; 
+}
+
+.section__navbar #img_01{
+   width: clamp(66px, 123px, 246px);
+   height: clamp(9.5px, 19px, 38px);
+}
+
+.section__navbar #img_02{
+    width: clamp(16px, 32px, 64px);
+    height: clamp(10px, 20px, 40px);
+ }
+
+
+ @media (max-width: 350px) {
+
+
+    
+ }
